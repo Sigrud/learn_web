@@ -36,7 +36,7 @@
 	    			<h3>
 	    				<a href=" {{news.url}} ">{{ news.tittle }}</a>
 	    			</h3>
-	    			<p>{{news.publish }}</p>
+	    			<p>{{news.published.strftime('%d.%m.%Y') }}</p>
 	    			<hr>
 	    		{% endfor %}
 	    	</div>
